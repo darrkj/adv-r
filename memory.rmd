@@ -71,7 +71,7 @@ plot(0:50, sizes, xlab = "Length", ylab = "Size (bytes)",
   type = "s")
 ```
 
-This isn't just an artefact of integer vectors. Every length 0 vector occupies 40 bytes of memory:
+This isn't just an artifact of integer vectors. Every length 0 vector occupies 40 bytes of memory:
 
 ```{r}
 object_size(numeric())
